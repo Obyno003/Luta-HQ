@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 10%;
+    padding: 2% 10%;
     /* padding-bottom: 5%; */
 }
 
@@ -44,10 +44,10 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-self: center;
     list-style: none;
-    gap: 5%;
+    gap: 20%;
 }
 
 nav ul a, .hero p, footer p {
@@ -83,7 +83,10 @@ nav ul a, .hero p, footer p {
 
 .hero-image {
     width: 50%;
-    border: 2px solid #3882f6;
+    /* border: 2px solid #3882f6; */
+}
+
+.hero-image img {
     border-radius: 8px;
 }
 
@@ -171,7 +174,7 @@ nav ul a, .hero p, footer p {
 }
 
 footer {
-    padding: 3% 10%;
+    padding: 1% 10%;
 }
 
 footer p {
